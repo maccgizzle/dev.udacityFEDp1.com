@@ -2,10 +2,7 @@ body {
   font-family: 'Lato', sans-serif;
   color: #747704;
   font-weight: 300; }
-
-.text-muted {
-  color: #cecece; }
-
+	
 .text-thin {
   font-weight: 100; }
 
@@ -16,7 +13,8 @@ body {
   margin-top: 1.25em; }
 
 hr {
-  border-width: 3px; }
+  border-width: 3px;
+	border-color: #35BFB3; }
 
 .text-ctr-sm {
 	text-align: center; }
@@ -37,7 +35,16 @@ img {
 	margin-bottom: 1em; }
 	
 a:link, a:hover {
-	color: #e04f3f; }
+	color: #439CB6; }
+
+h1 {
+	color: #EF6E22;}
+	
+h2 {
+  color: #F69544; }
+
+h4 {
+	color: #56C3BD; }
 
 @media screen and (min-width: 992px) {
 	.text-ctr-sm {
