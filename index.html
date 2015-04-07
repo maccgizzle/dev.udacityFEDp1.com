@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device=width, initial-scale=1">
+    <title>Wireframe Portfolio</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-ctr-sm">
+          <img class="title-logo" src="http://placehold.it/500x200" alt="logo">
+        </div>
+        <div class="col-md-8 text-ctr-sm text-uppercase">
+          <h1 class="title-super text-thin">Jason McGovern</h1>
+          <h4>Front-end Ninja</h4>
+        </div>
+      </div>
+      <div class="row">  
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <img class="img-responsive" src="http://placehold.it/1200x500" alt="Feature Image">
+        </div>
+      </div>
+      <div class="row myHero">
+        <div class="col-md-12">
+          <h2 class="text-muted">Featured Work</h2>
+        </div>
+      </div>
+      <div class="myProjects">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <img class="img-responsive center-block" src="http://placehold.it/800x550" alt="Interactive resume" data-toggle="modal" data-target="#interactiveResume">
+            <h3 class="text-uppercase" data-toggle="modal" data-target="#interactiveResume">Interactive resume</h3>
+            <p><a href="https://github.com/maccgizzle/interactive-resume">View GitHub Repository</a></p>
+          </div>
+          <div class="col-md-4">
+            <img class="img-responsive center-block" src="http://placehold.it/800x550" alt="Arcade game clone" data-toggle="modal" data-target="#arcadeGame">
+            <h3 class="text-uppercase data-toggle="modal" data-target="#arcadeGame"">Arcade game clone</h3>
+            <p><a href="https://github.com/maccgizzle/arcade-game-clone">View GitHub Repository</a></p>
+          </div>
+          <div class="col-md-4">
+            <img class="img-responsive center-block" src="http://placehold.it/800x550" alt="Website optimization" data-toggle="modal" data-target="#websiteOptimization">
+            <h3 class="text-uppercase data-toggle="modal" data-target="#websiteOptimization"">Website optimization</h3>
+            <p><a href="https://github.com/maccgizzle/website-optimization">View GitHub Repository</a></p>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <img class="img-responsive center-block" src="http://placehold.it/800x550" alt="Neighborhood map" data-toggle="modal" data-target="#neighborhoodMap">
+            <h3 class="text-uppercase" data-toggle="modal" data-target="#neighborhoodMap">Neighborhood map</h3>
+            <p><a href="https://github.com/maccgizzle/neighborhood-map">View GitHub Repository</a></p>
+          </div>
+          <div class="col-md-4">
+            <img class="img-responsive center-block" src="http://placehold.it/800x550" alt="Feed reader testing" data-toggle="modal" data-target="#feedReader">
+            <h3 class="text-uppercase" data-toggle="modal" data-target="#feedReader">Feed reader testing</h3>
+            <p><a href="https://github.com/maccgizzle/feed-reader-testing">View GitHub Repository</a></p>
+          </div>
+        </div>
+    </div>
+  <!-- Modals -->
+    <div class="modal fade" id="interactiveResume" tabindex="1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Interactive resume</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="http://placehold.it/800x550">
+            <p>You'll demonstrate your mastery of the language's syntax through a series of challenges. Each multipart problem mimics a real-life challenge that front-end developers face. You'll be required to write clean code and to apply your knowledge of variables, objects, JSON, functions and control flow to successfully solve the challenges.</p>
+            <p><a href="https://github.com/maccgizzle/interactive-resume">View GitHub Repository</a></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="arcadeGame" tabindex="2" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Classic arcade game clone</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="http://placehold.it/800x550">
+						<p>You will be provided with visual assets and a game loop engine; using these tools you must add a number of entities to the game including the player characters and enemies to recreate the classic arcade game Frogger.</p>
+            <p><a href="https://github.com/maccgizzle/arcade-game-clone">View GitHub Repository</a></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="neighborhoodMap" tabindex="3" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Neighborhood map project</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="http://placehold.it/800x550">
+            <p>You will optimize a provided website with a number of optimization- and performance-related issues so that it achieves a target PageSpeed score and runs at 60 frames per second.</p>
+            <p><a href="https://github.com/maccgizzle/website-optimization">View GitHub Repository</a></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="websiteOptimization" tabindex="3" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Website optimization</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="http://placehold.it/800x550">
+            <p>You will develop a single-page application featuring a map of your neighborhood or a neighborhood you would like to visit. You will then add additional functionality to this application, including: map markers to identify popular locations or places you’d like to visit, a search function to easily discover these locations, and a listview to support simple browsing of all locations. You will then research and implement third-party APIs that provide additional information about each of these locations (such as StreetView images, Wikipedia articles, Yelp reviews, etc).</p>
+            <p><a href="https://github.com/maccgizzle/neighborhood-map">View GitHub Repository</a></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="feedReader" tabindex="3" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Feed reader testing</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="http://placehold.it/800x550">
+						<p>In this project, you will be learning about testing with Javascript. Testing is an important part of the development process and many organizations practice a standard known as "test-driven development" or TDD. This is when developers write tests first, before they ever start developing their application.</p>
+            <p>Whether you work in an organization that writes tests extensively to inform product development or one that uses tests to encourage iteration, testing has become an essential skill in modern web development!</p>
+            <p><a href="https://github.com/maccgizzle/feed-reader-testing">View GitHub Repository</a></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

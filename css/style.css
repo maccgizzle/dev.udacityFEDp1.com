@@ -1,0 +1,50 @@
+body {
+  font-family: 'Lato', sans-serif;
+  color: #747704;
+  font-weight: 300; }
+
+.text-muted {
+  color: #cecece; }
+
+.text-thin {
+  font-weight: 100; }
+
+.title-super {
+  font-size: 3em; }
+
+.title-logo {
+  margin-top: 1.25em; }
+
+hr {
+  border-width: 3px; }
+
+.text-ctr-sm {
+	text-align: center; }
+
+img {
+	max-width: 100%; }
+
+.myProjects .col-md-4 {
+	margin-bottom: 4em; }	
+
+.myProjects .col-md-4 img, .myProjects .col-md-4 h3 {
+	cursor: pointer; }	
+
+.myHero {
+	margin-top: 4em; }
+
+.modal-body img {
+	margin-bottom: 1em; }
+	
+a:link, a:hover {
+	color: #e04f3f; }
+
+@media screen and (min-width: 992px) {
+	.text-ctr-sm {
+  	text-align: right; }
+}
+
+@media screen and (min-width: 768px) {
+	.title-super {
+  	font-size: 4em; }
+}
